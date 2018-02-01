@@ -7,5 +7,6 @@ package practice
 fun main(args: Array<String>) {
     val name = if (args.isNotEmpty()) args[0] else "Kotlin"
     val template = "Hello $name !"
-    print(template)
+    println(template)
+    println("Hello ${if (args.isNotEmpty()) args[0] else "someone"}!")
 }
