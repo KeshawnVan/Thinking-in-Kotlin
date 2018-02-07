@@ -14,5 +14,7 @@ public class Test {
         System.out.println(person.isMarried());
         int max = FunKt.max(2, 6);
         System.out.println(max);
+        boolean b;
+        System.out.println(b = true ? true : false);
     }
 }

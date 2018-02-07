@@ -19,12 +19,12 @@ fun getColor(color: Color) = when (color) {
 }
 
 fun getMarried(name: String) = when (name) {
-    "fkx" -> false
-    "ln" -> false
+    "a" -> false
+    "b" -> true
     else -> throw Exception("unknown name")
 }
 
 fun main(args: Array<String>) {
     println(getColor(Color.YELLOW))
-    println(getMarried("fkx"))
+    println(getMarried("a"))
 }
