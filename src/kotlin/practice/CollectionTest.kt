@@ -18,6 +18,8 @@ fun <T> Collection<T>.joinToString(separator: String = ",", prefix: String = "",
 fun main(args: Array<String>) {
     val set = hashSetOf(1, 7, 8)
     println(set)
+    println(set.last())
+    println(set.max())
     val list = arrayListOf(2, 3, 4)
     println(list)
     val map = hashMapOf(1 to "one", 2 to 20)
